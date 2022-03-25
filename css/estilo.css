@@ -1,0 +1,140 @@
+/* Estilização Geral */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+input{
+  outline: none;
+  display: block;
+  width: 225px;
+  padding: 10px 5px 10px 25px;
+  background-repeat: no-repeat;
+  background-position: 3px;
+  border-style: none;
+}
+label{
+  display: block;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+body{
+  width: 100%;
+  font-family: "Time News Roman", Times, serif;
+  background:url("../img/fundo.png") center no-repeat #04f3ff;
+}
+.defLargura{
+  width: 60vh;
+  height: 54vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 325px;
+  min-width: 300px;
+}
+.defFlex{
+  width: 60vh;
+  height: 54vh;
+  margin: auto;
+  margin-top: 17vh;
+  margin-bottom: 25vh;
+  min-height: 300px;
+  min-width: 300px;
+}
+
+/* Area de Cabeçalho */
+#logo{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+a#logo{
+  color: #000;
+  text-decoration: none;
+}
+.branco{
+  color: #fff;
+}
+
+/* Area do login */
+.botao{
+  cursor: pointer;
+  display: inline;
+  border-radius: 10px;
+  width: 100px;
+  padding: 5px;
+  color: #000;
+  background-color: #04f3ff;
+  margin: 20px 5px 0px 17px;
+}
+input#email{
+  background-image: url("../img/icone-usuario.png");
+}
+input#palavra-pass{
+  background-image: url("../img/icone-cadeado.png");
+}
+#login{
+  margin: 10px 0px 60px 0px;
+}
+#login a{
+  text-decoration: none;
+}
+
+/* Area Registro*/
+#registro{
+  margin: 10px 0px 60px 0px;
+}
+.botEspaco{
+  display: inline;
+  width: 30px;
+}
+.botao1{
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100px;
+  padding: 5px;
+  color: #000;
+  background-color: #04f3ff;
+  margin: 20px 0px 5px 80px;
+}
+.decoracao{
+  text-decoration: none;
+}
+.conta1{
+  color: #fff;
+  margin-left: 70px;
+}
+.defLargura1{
+  width: 60vh;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 550px;
+  min-width: 300px;
+}
+.defFlex1{
+  width: 60vh;
+  height: 73vh;
+  margin: auto;
+  margin-top: 7vh;
+  margin-bottom: 16vh;
+  min-height: 550px;
+  min-width: 300px;
+}
+input#data{
+
+}
+
+/* Area Rodape */
+#rodape{
+  text-align: center;
+  height: 3vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.5vh;
+  color: #fff;
+  min-height: 20px;
+}
